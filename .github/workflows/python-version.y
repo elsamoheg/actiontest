@@ -29,4 +29,4 @@ jobs:
       - uses: actions/setup-python@v2
       
       ## Executes the `python --version` command
-      - run: python --version
+      - run: echo 123 # python --version
